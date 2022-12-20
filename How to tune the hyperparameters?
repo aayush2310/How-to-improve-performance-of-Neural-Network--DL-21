@@ -1,0 +1,20 @@
+1)Number of Hidden Layers
+  We can take one hidden layer and add many neurons to it.But Prefer to take more number of hidden layers.Take the number of hidden layers till no overfitting occurs.
+  Making number of hidden layers helps in reuability because lets say we made a neural network for detection of human face but some of its layers can be used to detec the 
+  monkey face also.
+2)Number of Neurons
+  Input layer-no. of neurons = no. of input datapoints
+  Number of neurons in o/p layer depend upon how many classes of o/p i have like regression,classification of multi class classification
+  in hidden layers,earlier it useed to follow the pyramid structure like if i/p layer has 10 neurons then,towards the o/p you need to have less number of neurons.less by 
+  factor of 2.bcz, initial layers capture primitive features and there are more number of primitive features.
+  But it was realised that having equal number of neurons will also not make any diffrence.
+  Focus should be to keep sufficient number of nodes because once if some feature is missed in primitive layer cant be recovered back in the next layer.So it should be 
+  more than sufficient
+  
+3)Batchsize
+  Mini Batch GD should be followed.if large is taken then training becomes fast else training becomes slow.In small,generalization over new dataset is better.
+  To tackle this,we should use learning rate scheduler that is in starting epochs,keep learning rate small and in subsequent epochs increase the learning rate.This approach
+  is called warming up the learning rate.
+4)Epoch
+  Concept used Early stopping-apply in keras
+  keep epochs high
