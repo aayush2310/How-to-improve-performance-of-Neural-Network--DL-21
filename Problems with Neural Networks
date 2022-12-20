@@ -1,0 +1,17 @@
+1)Vanishing and Exploding Gradient
+  i)Weight initialization
+  ii)Change Activation Function
+  iii)Batch Normalization
+  iv)Gradient Clipping(for Exploding Gradient)
+  
+2)Not enough data
+  i)Transfer Learning(Use the model of someone else in our data)
+  ii)Unsupervised pre-training
+  
+3)Slow Training
+  i)Optimizers
+  ii)Learning rate scheduler
+
+4)Overfitting
+  i)L1 and L2 Regularizers
+  ii)Dropouts
