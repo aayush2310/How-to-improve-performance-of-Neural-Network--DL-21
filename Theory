@@ -1,0 +1,7 @@
+How to improve performance of neural network?
+=>1)Fine tune the hyper parameters like the number of hidden layers,number of neurons per layer,learning rate,optimizer,Batch size,Activation function,epochs
+  2)By solving problems:-
+         i)Vanishing/Exploding Gradient Problem
+         ii)Not enough data
+         iii)slow training
+         iv)Overfitting
